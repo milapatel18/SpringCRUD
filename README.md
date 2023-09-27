@@ -3,14 +3,25 @@ Spring MVC
 
 Spring Security
 
-Jsp
+JSP Bootstrap UI
+
 Authentication
+
 Authorization
+
 AOP
+
 Design Patterns
-Bootstrap UI
+
 Hibernate
+
 MySql
+
 Google Authentication
+
 Okta Authentication
+
+JUnit & Mockito
+
+TDD Approach
 
