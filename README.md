@@ -88,6 +88,24 @@ Data Model
      - Task id(Foreign Key, for parent tasks)
      - id(Primary Key)
   
+
+create table users(
+  id bigint(10) not null auto_increment,
+  created_at datetime not null,
+  updated_at datetime not null, 
+  active_status tinyint(1) not null, 
+  first_name varchar(50) not null,
+  last_name varchar(50) not null,
+   email varchar(100) not null, 
+  dob date not null,
+  profile_image varchar(100) not null,
+  user_type varchar(50) not null,
+  password varchar(100),
+  PRIMARY KEY(id)
+  );
+
+  
+  
        
 
 
